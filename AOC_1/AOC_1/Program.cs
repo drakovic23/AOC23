@@ -8,7 +8,7 @@ namespace AOC_1
     {
         static void partOne()
         {
-            var inputFile = File.ReadAllLines("./input.txt");
+            var inputFile = File.ReadAllLines("../../../input.txt");
             var input = new List<string>(inputFile);
             int sum = 0;
 
@@ -34,7 +34,7 @@ namespace AOC_1
 
         static void partTwo()
         {
-            var inputFile = File.ReadAllLines("./input.txt");
+            var inputFile = File.ReadAllLines("../../../input.txt");
             var input = new List<string>(inputFile);
             int sum = 0;
 
